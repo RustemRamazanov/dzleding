@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    
+    align-items: center;
+    background: #FFFFFF;
+    font-family: Montserrat;
+    font-style: normal;
+    margin: 0 auto;
+    width: 1110px;
+}
+
+.images{
+    position: relative;
+    width: 255px;
+    height: 255px;
+    left: 105px;
+    top: 105px;
+}
+.frameIpg{
+    width: 465px;
+    height: 465px;  
+    background: linear-gradient(180deg, #FFE195 0%, #FF5B5B 100%);
+    border-radius: 70px;
+    flex: none;
+}
+.container{
+    width: 1110px;
+    margin: 120px auto 0 auto;
+}
+
+.text{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    width: 400px;
+    height: 389px;
+    color: #000000;
+    margin-right: 176px;
+    font-weight: 700;
+}
+h1{ 
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.4em;
+}
+h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.4em;
+    margin-left: 300px;
+}
+p{
+    width: 423px;
+    font-size: 18px;
+    line-height: 1.37em;
+    margin: 30px 0
+}
+a{
+    background: #FF6861;
+    border-radius: 100px;
+    color: #ffffff;
+    padding: 22px 70px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+    width: 219px;
+    height: 69px;
+    line-height: 25px;
+    margin: 30px 0px 38px 0px;
+}
+div text{
+    margin-right: 180;
+}
+
+.header .container{
+    display: flex;
+}
+
+.digits img{
+    width: 73px;
+    height: 73px;
+    left: 0;
+    top: 0;
+    margin-right: 34px;
+}
+.digit-item{
+    display: flex;
+    align-items: last baseline;
+    height: 78px;
+}
+.digits{
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    width: 720px;
+    margin: 70px auto 0  auto;
+}
+.digit-title{
+    font-size: 30px;
+    line-height: 1.4em;
+    margin-bottom: 11px;
+}
+.digit-text{
+    margin-top: 11px;
+}
+.digit-fraper{
+    padding-top: 0;
+}
+.card{
+    display: flex;
+    background: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
+    border-radius: 60px;
+    width: 1110px;
+    height: 486px;
+}
+.card-text{
+    margin-left: 122px;
+    width: 475px;
+}
+
+.card .pik{
+    margin-left: 101px;
+    position: relative;
+    width: 287px;
+    height: 287px;
+    top: 100px;
+}
+.text-pik{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 136.7%;
+    width: 371px;
+}
+.logo{
+width: 137px;
+height: 30px;
+font-size: 25px;
+line-height: 30px;
+}
+
+.header{
+    margin-top: 60px;
+}
+.footer{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 120px;
+    padding-left: 438px;
+}
+.footer p{
+    font-size: 15px;
+    width: 198px;
+    height: 21px;
+}
